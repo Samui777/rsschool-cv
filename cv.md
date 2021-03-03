@@ -2,6 +2,7 @@
 +79058778277
 t.me/@papa5
 shivayanamaom3@gmail.com
+Izhevsk, Russia
 
 > 
 I came to school to learn how to work in a development team. I have a lot of great ideas and not to much opportunities to implement them. Here im for training my skills
