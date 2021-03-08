@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #59b0aa;
 }
 
 h2 {
@@ -11,34 +12,61 @@ h2 {
 }
 
 h3 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 10px;
+    padding-top: 20px;
     color: #bae27b;
 }
 
+h4 {
+    color: #bae27b;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 10px;
+}
+
 h5 {
+    padding-top: 20px;
     color: #59b0aa
 }
 
+h6 {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 20px;
+}
+
 li {
-    padding-top: 10px;
-    color: #59b0aa;
+    padding-top: 20px;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 a {
-    color: #59b0aa;
+    font-size: 14px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+body {
+    padding: 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/wallpaper.svg);
+    background-size: cover;
 }
 
 .main__page {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 980px;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    border: 3px solid #69d1d9;
+    border: 4px solid #69d1d9;
     border-radius: 6px;
 }
 
 .sidebar .sidebar__text {
-    padding: 50px;
+    padding: 25px;
     max-width: 270px;
     min-width: 270px;
     line-height: 1.5;
@@ -49,10 +77,7 @@ a {
     max-width: 600px;
 }
 
-.main__page .content .header-cv {}
-
 .main__page .content .header-cv h1 {
-    padding-bottom: 10px;
     margin-bottom: 0;
     font-size: 45px;
     color: #c4416c;
@@ -62,25 +87,15 @@ a {
     padding-top: 15px;
 }
 
-.main__page .content .about {
-    padding-top: 10px;
-    color: #59b0aa;
-}
-
-body {
-    padding: 40px 40px;
-    font-family: 'Montserrat', sans-serif;
-    background-image: url(../img/wallpaper.svg);
-    background-size: cover;
-}
-
 .photo {
     max-width: 290px;
+    border: 3px solid #59b0aa;
+    border-radius: 6px;
 }
 
 .sidebar {
-    padding: 40px, 0, 40px, 0;
-    margin: auto;
+    padding: 0;
+    margin: 44px;
     min-width: 290px;
     max-width: 290px;
     background-color: rgba(95, 190, 172, .4);
