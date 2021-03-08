@@ -27,34 +27,34 @@ a {
     color: #59b0aa;
 }
 
-.main {
-    max-width: 960px;
+.main__page {
     margin: 0 auto;
-    border: 3px solid #69d1d9;
-    border-radius: 6px;
+    max-width: 960px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    border: 3px solid #69d1d9;
+    border-radius: 6px;
 }
 
 .sidebar .sidebar__text {
+    padding: 50px;
     max-width: 270px;
     min-width: 270px;
-    padding: 50px;
     line-height: 1.5;
 }
 
-.main .content {
+.main__page .content {
     padding: 50px;
     max-width: 600px;
 }
 
-.main .content .header-cv {}
+.main__page .content .header-cv {}
 
-.main .content .header-cv h1 {
+.main__page .content .header-cv h1 {
     padding-bottom: 10px;
-    font-size: 45px;
     margin-bottom: 0;
+    font-size: 45px;
     color: #c4416c;
 }
 
@@ -62,16 +62,16 @@ a {
     padding-top: 15px;
 }
 
-.main .content .about {
-    color: #59b0aa;
+.main__page .content .about {
     padding-top: 10px;
+    color: #59b0aa;
 }
 
 body {
+    padding: 40px 40px;
+    font-family: 'Montserrat', sans-serif;
     background-image: url(../img/wallpaper.svg);
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-    padding: 40px 40px;
 }
 
 .photo {
@@ -79,14 +79,13 @@ body {
 }
 
 .sidebar {
+    padding: 40px, 0, 40px, 0;
     margin: auto;
-    background-color: rgba(95, 190, 172, 0.4);
+    min-width: 290px;
+    max-width: 290px;
+    background-color: rgba(95, 190, 172, .4);
     border-left-color: #1e3034;
     border-right-color: #1e3034;
     border-left-width: 3px;
     border-right-width: 3px;
-    min-width: 290px;
-    max-width: 290px;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
