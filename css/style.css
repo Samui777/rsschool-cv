@@ -57,7 +57,7 @@ body {
 }
 
 .main__page {
-    margin: 0 auto;
+    margin: auto;
     max-width: 980px;
     display: -webkit-box;
     display: flex;
