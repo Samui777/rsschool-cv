@@ -1,4 +1,3 @@
-
 const COLLECTION = document.querySelectorAll(".piano-key");
 const PIANO = document.getElementById("piano");
 const BUTTON = document.getElementById("btn");
@@ -77,4 +76,3 @@ const stopCorrespondOver = () => {
 PIANO.addEventListener('mousedown', startCorrespondOver, false);
 document.addEventListener('mouseup', stopCorrespondOver);
 document.addEventListener('keydown', playSound);
-
