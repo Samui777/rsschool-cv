@@ -13,9 +13,9 @@ Izhevsk, Russia
 - Sound and light engineering
 - Wood, metal craft and inventions
 
-##### Work Experience
+##### Coding Experience
 
-> Since 2007 I have worked in many enterprises as a system administrator, radio technician and repair specialist. now i am repairing computers and laptops
+> I know many ways of programming, such as: assembler, basic, pasqal, delphi, C , C++, C#, Python and little bit web, html, js, css
 
 ##### Education
 
@@ -23,9 +23,9 @@ Izhevsk, Russia
 - Factories gave me practies experience
 - Many self-growth trainings
 
-##### Coding Experience
+##### Work Experience
 
-> I know many ways of programming, such as: assembler, basic, pasqual, delphi, C , C++, C#, Python and little bit web, html, js, css
+> Since 2007 I have worked in many enterprises as a system administrator, radio technician and repair specialist. now i am repairing computers and laptops
 
 ##### English
 
