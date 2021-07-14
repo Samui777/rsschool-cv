@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #59b0aa;
+}
+
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+
+.group::after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+h2 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 7px;
+    color: #bae27b;
+}
+
+h3 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #bae27b;
+}
+
+h4 {
+    color: #bae27b;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-top: 20px;
+    color: #59b0aa
+}
+
+h6 {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+li {
+    padding-top: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+a {
+    font-size: 14px;
+}
+
+p {
+    padding-top: 20px;
+}
+
+body {
+    padding: 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url(../img/wallpaper.svg);
+    background-size: cover; */
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main__page {
+    margin: auto;
+    max-width: 980px;
+    /* display: -webkit-box; */
+    display: flex;
+    border: 4px solid #69d1d9;
+    border-radius: 6px;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+opacity: 0.8 ;
+}
+
+.github__link {
+    display: inline-block;
+}
+
+.sidebar .sidebar__text {
+    padding: 25px;
+    max-width: 270px;
+    min-width: 270px;
+    line-height: 1.5;
+}
+
+.main__page .content {
+    float: right;
+    padding: 50px;
+    max-width: 600px;
+}
+
+.main__page .content .header-cv h1 {
+    margin-bottom: 0;
+    font-size: 45px;
+    color: #c4416c;
+}
+
+.content h2 {
+    padding-top: 15px;
+}
+
+.photo {
+    max-width: 290px;
+    border: 3px solid #59b0aa;
+    border-radius: 6px;
+}
+
+.sidebar {
+    float: left;
+    padding: 0;
+    margin: 44px;
+    margin-right: 0;
+    min-width: 290px;
+    max-width: 290px;
+    background-color: rgba(95, 190, 172, .4);
+    border-left-color: #1e3034;
+    border-right-color: #1e3034;
+    border-left-width: 3px;
+    border-right-width: 3px;
+}
+
+.footer {
+    max-width: 980px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    background-color: #bae27b2a;
+}
+
+.container--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+}
+
+.footer__rsschool {
+    height: 30px;
+}
