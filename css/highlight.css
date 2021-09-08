@@ -1,0 +1,93 @@
+.javascript .de1,
+.javascript .de2 {
+  font: normal normal 0.5em monospace;
+  margin: 0;
+  padding: 0;
+  background: none;
+  vertical-align: top;
+  color: #000020;
+}
+.javascript {
+  font-family: monospace;
+  color: #006;
+  border: 1px solid #d0d0d0;
+  background-color: #f0f0f0;
+  margin-top: 20px;
+}
+.javascript a:link {
+  color: #000060;
+}
+.javascript a:hover {
+  background-color: #f0f000;
+}
+.javascript .imp {
+  font-weight: bold;
+  color: red;
+}
+.javascript li,
+.javascript .li1 {
+  list-style-type: none;
+  font-weight: normal;
+  vertical-align: top;
+  font: normal normal 130% "Courier New", Courier, monospace;
+  color: #003030;
+  padding-top: 5px;
+}
+.javascript .ln {
+  width: 1px;
+  text-align: right;
+  margin: 0;
+  padding: 0 2px;
+  vertical-align: top;
+}
+.javascript .li2 {
+  font-weight: bold;
+  vertical-align: top;
+  font-weight: bold;
+  color: #006060;
+}
+.javascript .kw1 {
+  color: #000066;
+  font-weight: bold;
+}
+.javascript .kw2 {
+  color: #003366;
+  font-weight: bold;
+}
+.javascript .kw3 {
+  color: #000066;
+}
+.javascript .co1 {
+  color: #006600;
+  font-style: italic;
+}
+.javascript .co2 {
+  color: #009966;
+  font-style: italic;
+}
+.javascript .coMULTI {
+  color: #006600;
+  font-style: italic;
+}
+.javascript .es0 {
+  color: #000099;
+  font-weight: bold;
+}
+.javascript .br0 {
+  color: #009900;
+}
+.javascript .sy0 {
+  color: #339933;
+}
+.javascript .st0 {
+  color: #3366cc;
+}
+.javascript .nu0 {
+  color: #cc0000;
+}
+.javascript .me1 {
+  color: #660066;
+}
+.javascript span.xtra {
+  display: block;
+}
