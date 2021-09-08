@@ -17,6 +17,19 @@
 
 > I know many ways of programming, such as: assembler, basic, pasqal, delphi, C , C++, C#, Python and little bit web, html, js, css
 
+##### Code Examples
+
+```
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+
 ##### Education
 
 - College, as computer tech specials
