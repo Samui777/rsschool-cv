@@ -29,4 +29,4 @@ Izhevsk, Russia
 
 ##### English
 
-On a survival level
+On a survival level. I can choose words to explain my mind.
