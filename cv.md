@@ -1,9 +1,9 @@
 ## Kurnev Iurii
 
-+79058778277
-t.me/@papa5
-shivayanamaom3@gmail.com
-Izhevsk, Russia
+- +79058778277
+- t.me/@papa5
+- shivayanamaom3@gmail.com
+- Izhevsk, Russia
 
 > I came to school to learn how to work in a development team. I have a lot of great ideas and not to much opportunities to implement them. Here im for training my skills
 
@@ -17,6 +17,19 @@ Izhevsk, Russia
 
 > I know many ways of programming, such as: assembler, basic, pasqal, delphi, C , C++, C#, Python and little bit web, html, js, css
 
+##### Code Examples
+
+```
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
+
 ##### Education
 
 - College, as computer tech specials
@@ -29,4 +42,8 @@ Izhevsk, Russia
 
 ##### English
 
+<<<<<<< HEAD
 On a survival level. I can choose words to explain my mind.
+=======
+On a survival level. I can choose the words to explain my mind.
+>>>>>>> 1d252ecaf3870028a9cb6d5c8757f040dc340f6a
