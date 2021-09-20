@@ -25,6 +25,8 @@
   --text-sz: 20px;
   --max-width: 1440px;
   --content-width: 1238px;
+  --button-blue: #534196;
+  --light-blue: #9477fa;
 }
 
 * {
@@ -316,8 +318,8 @@ section {
 }
 
 .photo {
-  margin-bottom: 33px;
-  margin-top: 33px;
+  /* margin-bottom: 33px;
+  margin-top: 33px; */
   max-width: 225px;
   border: 3px solid #09224a;
   border-radius: 50%;
@@ -354,11 +356,12 @@ section {
 .cv__title {
   font-size: 4rem;
   text-shadow: #fc0 10px 0 50px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  border-bottom: none;
 }
 .cv__subtitle {
   font-size: 2rem;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   text-shadow: #fc0 10px 0 50px;
   text-align: left;
 }
@@ -373,18 +376,39 @@ section {
   display: inline-block;
   font-weight: 500;
   font-size: 20px;
-  background-color: #534196;
-  border: 1px solid var(--accent);
-  color: var(--white);
+  background-color: var(--button-blue);
+  /* border: 1px solid var(--accent); */
+  /* color: var(--white); */
   padding: 1rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
 }
+.btn:hover,
+.btn:focus {
+  background-color: var(--light-blue);
+  border: var(--light-blue);
+}
+
+.btn:active {
+  background-color: #34246d;
+  border: #34246d;
+}
 
 .btn-pdf {
   background-color: transparent;
   border: 2px solid #534196;
+}
+
+.btn-pdf:hover,
+.btn-pdf:focus {
+  background-color: var(--button-blue);
+  border: var(--button-blue);
+}
+
+.btn-pdf:active {
+  background-color: #34246d;
+  border: #34246d;
 }
 
 /* -----EXPERIENCE START------- */
@@ -463,20 +487,21 @@ section {
   align-items: center;
 }
 .first__column {
-  flex-basis: 150pxs;
+  flex-basis: 150px;
 }
 
 .second__column {
-  flex-basis: 150pxs;
+  flex-basis: 150px;
 }
 /* -----WELCOME START------- */
 
 .footer {
-  max-width: 980px;
+  height: 110px;
+  width: 100%;
   padding-top: 15px;
   padding-bottom: 10px;
   margin: 0 auto;
-  background-color: #bae27b2a;
+  background-color: transparent;
 }
 
 .container--footer {
