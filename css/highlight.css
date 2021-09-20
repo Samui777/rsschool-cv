@@ -12,7 +12,7 @@
   color: #006;
   border: 1px solid #d0d0d0;
   background-color: #f0f0f0;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .javascript a:link {
   color: #000060;
@@ -29,7 +29,7 @@
   list-style-type: none;
   font-weight: normal;
   vertical-align: top;
-  font: normal normal 130% "Courier New", Courier, monospace;
+  font: normal normal 130% 'Courier New', Courier, monospace;
   color: #003030;
   padding-top: 5px;
 }

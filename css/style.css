@@ -307,10 +307,6 @@ section {
   color: #c4416c;
 }
 
-.content h2 {
-  /* pag-top: 15px;ddin */
-}
-
 .coloured {
   background: #2c53647a;
 
@@ -484,7 +480,8 @@ section {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  align-items: baseline;
 }
 .first__column {
   flex-basis: 150px;
@@ -493,7 +490,25 @@ section {
 .second__column {
   flex-basis: 150px;
 }
-/* -----WELCOME START------- */
+
+.languages__list {
+  margin-top: 30px;
+}
+.english__leevel {
+  margin-top: 30px;
+}
+/* -----CONTACTS START------- */
+.contacts {
+  margin: 0 auto;
+}
+
+.adress__block {
+  margin: 0 auto;
+  padding: 50px;
+  width: 400px;
+}
+
+/* -----FOOTER START------- */
 
 .footer {
   height: 110px;
