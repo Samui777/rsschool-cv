@@ -507,7 +507,9 @@ section {
   padding: 50px;
   width: 400px;
 }
-
+.contacts__list {
+  margin-top: 30px;
+}
 /* -----FOOTER START------- */
 
 .footer {
