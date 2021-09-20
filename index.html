@@ -6,217 +6,259 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/highlight.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <title>KURNEV IURII CV</title>
   </head>
 
   <body>
-    <header class="header container">
-      <div class="logo__container">
-        <a href="#" class="header__logo-link">
-          <img
-            src="./assets/svg/logo.svg"
-            alt="louvre logo"
-            class="logo__pic"
-          />
-          <h5 class="header__descr">नमः शिवाय</h5>
-        </a>
-      </div>
-      <nav class="header__menu">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#welcome" class="header__link">Welcome</a>
-          </li>
-          <li class="header__item">
-            <a href="#expirience" class="header__link">Expirience</a>
-          </li>
-          <li class="header__item">
-            <a href="#education" class="header__link">Education</a>
-          </li>
-          <li class="header__item">
-            <a href="#languages" class="header__link">Languages</a>
-          </li>
-          <li class="header__item">
-            <a href="#contacts" class="header__link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- -->
-
-    <div class="main__page">
-      <!--Боковая панель -->
-      <!-- <aside class="sidebar">
-
-        <section class="sidebar__text">
-          <div>
-
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner container">
+          <div class="logo__container">
+            <a href="#" class="header__logo-link">
+              <img
+                src="./assets/svg/logo.svg"
+                alt="louvre logo"
+                class="logo__pic"
+              />
+              <h5 class="header__descr">नमः शिवाय</h5>
+            </a>
           </div>
-        </section>
-      </aside> -->
-      <!-- Основная часть -->
-      <main class="content">
-        <section class="welcome" id="welcome">
-          <figure>
-            <img alt="Photo" src="./img/ava1.jpg" class="photo" />
-          </figure>
-          <h1>Kurnev Yuri</h1>
-          <h2>Web-frontend student</h2>
-          <h6>
-            I came to school to learn how to work in a development team. I have
-            a lot of great ideas and not to much opportunities to implement
-            them. Here im for training my skills
-          </h6>
-        </section>
-        <section class="experience" id="expirience">
-          <h3>Expirience</h3>
-          <p>
-            Since 2007 I have worked in many enterprises as a system
-            administrator, radio technician and repair specialist. now i am
-            repairing computers and laptops
-          </p>
-          <h3>Work Skills</h3>
-          <ul>
-            <li>
-              <span class="skill__description"
-                >Radio engineering, microprocessors (arduino, raspberry)</span
-              >
-            </li>
-            <li>
-              <span class="skill__description"
-                >Wood, metal craft and inventions</span
-              >
-            </li>
-            <li>
-              <span class="skill__description"
-                >Sound and light engineering</span
-              >
-            </li>
-          </ul>
-        </section>
-        <section class="education" id="education">
-          <h3>Education</h3>
-          <ul>
-            <li>
-              <span class="education__place"
-                >College, as computer tech specialis</span
-              >
-            </li>
-            <li>
-              <span class="education__place"
-                >Factories gave me practies experience</span
-              >
-            </li>
-            <li>
-              <span class="education__place">Many self-growth trainings</span>
-            </li>
-          </ul>
-        </section>
-        <section class="languages" id="languages">
-          <h4>Languages/Technologies</h4>
-          <ul>
-            <li>Assembler</li>
-            <li>C / C++ / C#</li>
-            <li>Python</li>
-          </ul>
-          <h3 class="code-example">Code Example</h3>
-          <div class="javascript">
-            <ol>
-              <li class="li1">
-                <div class="de1">
-                  ReactDOM.<span class="me1">render</span
-                  ><span class="br0">&#40;</span>
-                </div>
+          <input id="menu__toggle" type="checkbox" class="check-menu" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <nav class="header__menu">
+            <!-- <button class="hamburger" id="hamburger">
+              <i class="fas fa-bars"></i>
+            </button> -->
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#welcome" class="header__link">Welcome</a>
               </li>
-              <li class="li1">
-                <div class="de1">
-                  &nbsp; <span class="sy0">&lt;</span>React.<span class="me1"
-                    >StrictMode</span
-                  ><span class="sy0">&gt;</span>
-                </div>
+              <li class="header__item">
+                <a href="#expirience" class="header__link">Expirience</a>
               </li>
-              <li class="li1">
-                <div class="de1">
-                  &nbsp; &nbsp; <span class="sy0">&lt;</span>Provider store<span
-                    class="sy0"
-                    >=</span
-                  ><span class="br0">&#123;</span>store<span class="br0"
-                    >&#125;</span
-                  ><span class="sy0">&gt;</span>
-                </div>
+              <li class="header__item">
+                <a href="#education" class="header__link">Education</a>
               </li>
-              <li class="li1">
-                <div class="de1">
-                  &nbsp; &nbsp; &nbsp; <span class="sy0">&lt;</span>App
-                  <span class="sy0">/&gt;</span>
-                </div>
+              <li class="header__item">
+                <a href="#languages" class="header__link">Languages</a>
               </li>
-              <li class="li2">
-                <div class="de2">
-                  &nbsp; &nbsp; <span class="sy0">&lt;/</span>Provider<span
-                    class="sy0"
-                    >&gt;</span
-                  >
-                </div>
+              <li class="header__item">
+                <a href="#contacts" class="header__link">Contacts</a>
               </li>
-              <li class="li1">
-                <div class="de1">
-                  &nbsp; <span class="sy0">&lt;/</span>React.<span class="me1"
-                    >StrictMode</span
-                  ><span class="sy0">&gt;,</span>
-                </div>
-              </li>
-              <li class="li1">
-                <div class="de1">
-                  &nbsp; document.<span class="me1">getElementById</span
-                  ><span class="br0">&#40;</span><span class="st0">'root'</span
-                  ><span class="br0">&#41;</span>
-                </div>
-              </li>
-              <li class="li1">
-                <div class="de1">
-                  <span class="br0">&#41;</span><span class="sy0">;</span>
-                </div>
-              </li>
-            </ol>
-          </div>
-          <h3>English</h3>
-          <p>On survival level</p>
-        </section>
-        <section class="contacts" id="contacts">
-          <h3 class="adress__text">Izhevsk, Russia</h3>
-          <ul>
-            <li>
-              <a class="contacts__link" href="mailto:shivayanamaom3@gmail.com"
-                >shivayanamaom3@gmail.com</a
-              >
-            </li>
-            <li>
-              <a class="contacts__link" href="tel:+79058778277">+79058778277</a>
-            </li>
-            <li>
-              <a class="contacts__link" href="https://github.com/Samui777"
-                >@Samui777</a
-              >
-            </li>
-          </ul>
-        </section>
-      </main>
-    </div>
-    <!-- ФУТЕР -->
-    <footer class="footer">
-      <div class="container container--footer">
-        <span>2021</span>
-        <div class="footer__links">
-          <a href="https://github.com/Samui777/">Github</a>
-          <a href="https://rs.school/js/">
-            <img
-              class="footer__rsschool"
-              src="https://rs.school/images/rs_school_js.svg"
-              alt="rsschool js"
-            />
-          </a>
+            </ul>
+          </nav>
         </div>
+      </header>
+      <div class="main__page">
+        <!--Боковая панель -->
+        <!-- <aside class="sidebar">
+
+          <section class="sidebar__text">
+            <div>
+
+            </div>
+          </section>
+        </aside> -->
+        <!-- Основная часть -->
+        <main class="content">
+          <section class="welcome container" id="welcome">
+            <figure>
+              <img alt="Photo" src="./img/ava1.jpg" class="photo" />
+            </figure>
+            <h2 class="cv__name">Kurnev Yuri</h2>
+
+            <h3 class="cv__title">Web-frontend student</h3>
+            <div class="buttons__wrapper">
+              <a href="mailto:shivayanamaom3@gmail.com" class="btn"
+                >Email me ✉️</a
+              >
+              <a href="#PDF" class="btn btn-pdf">Download PDF</a>
+            </div>
+
+            <!-- <h6 class="cv__subtitle"> -->
+            <p class="cv__subtitle">
+              I came to school to learn how to work in a development team.
+            </p>
+            <p class="cv__subtitle">
+              I have a lot of great ideas and not to much opportunities to
+              implement them.
+            </p>
+            <p class="cv__subtitle">Here im for training my skills</p>
+            <!-- </h6> -->
+          </section>
+          <section class="experience coloured container" id="expirience">
+            <div class="experience__block">
+              <h3 class="experience__title">Expirience</h3>
+              <p class="experience__subtitle">
+                Since 2007 I have worked in many enterprises as a system
+                administrator, radio technician and repair specialist. now i am
+                repairing computers and laptops
+              </p>
+            </div>
+            <div class="skills__block">
+              <h3 class="skills__title">Work Skills</h3>
+              <ul class="skills__list">
+                <li>
+                  <span class="skill__description"
+                    >Radio engineering, microprocessors (arduino,
+                    raspberry)</span
+                  >
+                </li>
+                <li>
+                  <span class="skill__description"
+                    >Wood, metal craft and inventions</span
+                  >
+                </li>
+                <li>
+                  <span class="skill__description"
+                    >Sound and light engineering</span
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="experience__inner"></div> -->
+          </section>
+          <section class="education" id="education">
+            <div class="education__block">
+              <h3 class="education__title">Education</h3>
+              <ul class="education__list">
+                <li>
+                  <span class="education__place"
+                    >College, as computer tech specialis</span
+                  >
+                </li>
+                <li>
+                  <span class="education__place"
+                    >Factories gave me practies experience</span
+                  >
+                </li>
+                <li>
+                  <span class="education__place"
+                    >Many self-growth trainings</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="languages coloured container" id="languages">
+            <div class="first__column">
+              <h4>Languages/Technologies</h4>
+              <ul>
+                <li>Assembler</li>
+                <li>C / C++ / C#</li>
+                <li>Python</li>
+              </ul>
+              <h3>English</h3>
+              <p>On survival level</p>
+            </div>
+            <div class="second__column">
+              <h3 class="code-example">Code Example</h3>
+              <div class="javascript">
+                <ol>
+                  <li class="li1">
+                    <div class="de1">
+                      ReactDOM.<span class="me1">render</span
+                      ><span class="br0">&#40;</span>
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      &nbsp; <span class="sy0">&lt;</span>React.<span
+                        class="me1"
+                        >StrictMode</span
+                      ><span class="sy0">&gt;</span>
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      &nbsp; &nbsp; <span class="sy0">&lt;</span>Provider
+                      store<span class="sy0">=</span
+                      ><span class="br0">&#123;</span>store<span class="br0"
+                        >&#125;</span
+                      ><span class="sy0">&gt;</span>
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      &nbsp; &nbsp; &nbsp; <span class="sy0">&lt;</span>App
+                      <span class="sy0">/&gt;</span>
+                    </div>
+                  </li>
+                  <li class="li2">
+                    <div class="de2">
+                      &nbsp; &nbsp; <span class="sy0">&lt;/</span>Provider<span
+                        class="sy0"
+                        >&gt;</span
+                      >
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      &nbsp; <span class="sy0">&lt;/</span>React.<span
+                        class="me1"
+                        >StrictMode</span
+                      ><span class="sy0">&gt;,</span>
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      &nbsp; document.<span class="me1">getElementById</span
+                      ><span class="br0">&#40;</span
+                      ><span class="st0">'root'</span
+                      ><span class="br0">&#41;</span>
+                    </div>
+                  </li>
+                  <li class="li1">
+                    <div class="de1">
+                      <span class="br0">&#41;</span><span class="sy0">;</span>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </section>
+          <section class="contacts" id="contacts">
+            <h3 class="adress__text">Izhevsk, Russia</h3>
+            <ul>
+              <li>
+                <a class="contacts__link" href="mailto:shivayanamaom3@gmail.com"
+                  >shivayanamaom3@gmail.com</a
+                >
+              </li>
+              <li>
+                <a class="contacts__link" href="tel:+79058778277"
+                  >+79058778277</a
+                >
+              </li>
+              <li>
+                <a class="contacts__link" href="https://github.com/Samui777"
+                  >@Samui777</a
+                >
+              </li>
+            </ul>
+          </section>
+        </main>
       </div>
-    </footer>
+      <!-- ФУТЕР -->
+      <footer class="footer">
+        <div class="container container--footer">
+          <span>2021</span>
+          <div class="footer__links">
+            <a href="https://github.com/Samui777/">Github</a>
+            <a href="https://rs.school/js/">
+              <img
+                class="footer__rsschool"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="rsschool js"
+              />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
