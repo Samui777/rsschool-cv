@@ -35,3 +35,5 @@ console.log('Hello, World!');
 ##### English
 
 On a survival level
+> 
+I'm just trying to choose the words to explain my mind
