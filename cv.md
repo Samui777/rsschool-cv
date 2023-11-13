@@ -1,3 +1,4 @@
+
 ## Kurnev Iurii
 
 +79058778277
@@ -12,6 +13,7 @@ Saint-Petersburg, Russia
 - Radio engineering, microprocessors (arduino, raspberry)
 - Sound and light engineering
 - Wood, metal craft and inventions
+- Computer hardware repair
 
 ##### Coding Experience
 
