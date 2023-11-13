@@ -16,6 +16,11 @@ Saint-Petersburg, Russia
 ##### Coding Experience
 
 > I know many ways of programming, such as: assembler, basic, pasqal, delphi, C , C++, C#, Python and little bit web, html, js, css
+    
+```javascript
+console.log('Hello, World!');
+// => Hello, World!
+```
 
 ##### Education
 
