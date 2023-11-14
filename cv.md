@@ -1,3 +1,4 @@
+
 ## Kurnev Iurii
 
 +79058778277
@@ -12,10 +13,16 @@ Saint-Petersburg, Russia
 - Radio engineering, microprocessors (arduino, raspberry)
 - Sound and light engineering
 - Wood, metal craft and inventions
+- Computer hardware repair
 
 ##### Coding Experience
 
 > I know many ways of programming, such as: assembler, basic, pasqal, delphi, C , C++, C#, Python and little bit web, html, js, css
+    
+```javascript
+console.log('Hello, World!');
+// => Hello, World!
+```
 
 ##### Education
 
@@ -30,3 +37,5 @@ Saint-Petersburg, Russia
 ##### English
 
 On a survival level
+> 
+I'm just trying to choose the words to explain my mind
