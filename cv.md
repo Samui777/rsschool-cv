@@ -34,6 +34,8 @@ console.log('Hello, World!');
 
 > Since 2007 I have worked in many enterprises as a system administrator, radio technician and repair specialist. now i am repairing computers and laptops
 
+> Since 2020 worked in marketing, sales.. etc
+
 ##### English
 
 On a survival level
